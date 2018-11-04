@@ -1,6 +1,11 @@
 package krazenn.company.homeshop;
 
-public class Cutomer {
+public class Customer {
+
+    public Customer(String fullName, String adress) {
+        this.fullName = fullName;
+        this.adress = adress;
+    }
 
     private String fullName;
     private String adress;
