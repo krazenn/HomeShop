@@ -17,6 +17,16 @@ public class Car extends Vehicle {
         this.option = option;
     }
 
+    @Override
+    public void start() {
+        System.out.println("Je suis " + modelName + " je consomme " + litrePer100km + "l au 100km et he démarre");
+    }
+
+    @Override
+    public void stop() {
+        System.out.println("Je suis " + modelName + " j'arrête mon moteur " + motor);
+    }
+
     public void startHeadLight(){
         System.out.println("J'allume mes phares");
     }
